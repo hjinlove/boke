@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人</title>
+    <style>
+        *{
+
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+       
+        
+        
+
+        .s15 img{
+            width: 900px;
+            height: 200px;
+            float: left;
+            /* margin-top: 20px;
+            margin: 20px; */
+        }
+        .s1{
+            width: 900px;
+            height: 280px;
+            margin: -16px auto;
+        }
+        ul{
+            list-style: none;
+           
+        }
+        .s11{
+             
+            background-color: #000;
+        }
+       
+        .s11::after{
+            content: "";
+            display:block;
+            clear:both;
+        }
+        li a{
+            /* 下划线清除 */
+            text-decoration:none;
+        }
+        
+        .s12,.s13,.s14,.s16 {
+            width: 100px;
+            height: 50px;
+            
+            float: right;
+            margin-top: 15px;
+            color: #000;
+            font-size: 30px;
+            font-weight: 20px;
+            font-family: 黑体;
+            
+
+        }
+        .s12{
+             margin-right: 98px;
+        }
+        /* 手标悬浮下划线 */
+        a:hover {
+           text-decoration: underline rgb(84, 181, 84);
+        }
+        /*伪元素选择器，未访问过链接的颜色*/
+        ul li a:link {
+            color: rgb(22, 240, 95);
+        }
+        /*-当用户鼠标放在链接上时 */
+        a:hover{
+            color: rgb(16, 229, 233);
+        }
+
+        /* - 链接被点击的那一刻 */
+        a:active {
+            color: rgb(198, 82, 150);
+        }
+        .s02{
+            width: 900px;
+            height: 36px;
+            text-align: right;
+            margin-left: -50px;
+            margin: 8px auto;
+        }
+        
+        
+        .s0{
+            width: 265px;
+            height: 33px;
+                       
+        }
+        .s01{
+            height: 36px;
+            width: 55px;
+            
+        }
+
+        h1{
+            width: 210px;
+            height: 60px;
+            background-color: rgb(179, 155, 124);
+            color: rgb(216, 61, 61);
+            margin-left: 165px;
+            text-align: center;
+            
+
+        }
+        .s3{
+            width: 210px;
+            height: auto;
+            background-color: bisque;
+            margin-left: 165px;
+            text-align: center;
+            font-size: 25px;
+        }
+        .s2{
+            margin-top: 10px;
+        }
+        .s4{
+            width: 210px;
+            height: auto;
+            background-color: bisque;
+            margin-left: 165px;
+            text-align: center;
+            font-size: 25px;
+        }
+        .s5{
+            margin-top: 10px;
+        }
+
+
+    </style>
+</head>
+<body >
+    <div class="s1">
+        <ul class="s11">
+            <li class="s15"> <img src="img/161H4HI-2.jpg" >
+                </li>
+            <li class="s12"><a href="../课程/JavaScript/三种引入方式/javascript.html" target="_blank">javaScript</a></li>
+            <li class="s13"><a href="../课程/CSS/css.html" target="_blank">css</a></li>
+            <li class="s14"><a href="../课程/HTML/html.html" target="_blank">html</a></li>
+            <li class="s16"><a href="./网页.html" target="_blank">首页</a></li>
+        </ul>
+    </div>
+    <div class="s02">
+        <input type="text"  name=""  id=""  class="s0">
+        <input type="submit" value="搜索" class="s01">
+    </div>
+    <div>
+        <h1>个人介绍</h1>
+    </div>
+    <div class="s3">
+        <ul>
+            <li><a href="">个人简历</a></li>
+            <li><a href="">模板</a></li>
+            <li><a href="">123</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h1 class="s2">html</h1>
+    </div>
+
+    <div class="s4">
+        <ul class="s41">
+            <p>表单案例</p>
+            <li class="s42"><a href="../课程/HTML/表单案例/dengruyemian.html">会员登入模板</a></li>
+            <li class="s43"><a href="../课程/HTML/表单案例/zuceyemian.html">注册模板</a></li>
+            <p>基本案例</p>
+            <li class="s44"><a href="../课程/HTML/基本案例/sdj.html">圣诞节模板</a></li>
+            <li><a href="../课程/HTML/基本案例/sdlr.html">圣诞老人模板</a></li>
+            <li><a href="../课程/HTML/基本案例/yesu.html">模板</a></li>
+            <p>表格案例</p>
+            <li><a href="../课程/HTML/表格案例/demo.html">表格模板</a></li>
+        </ul>
+       
+    </div>
+    <div>
+        <h1 class="s5">css</h1>
+    </div>
+
+
+
+</body>
+</html>
