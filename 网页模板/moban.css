@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 900px;
+    height: 900px;
+    margin: 8px auto; 
+}
+
+.s1{
+    width: 900px;
+    height: 150px;
+    background-color: antiquewhite;
+    margin: 8px auto;
+}
+
+
+.s2{
+    width: 900px;
+    height: 170px;
+}
+.s21{
+    list-style: none;
+    
+    
+
+}
+/* 清除浮动 */
+.s21::after{
+    content: "";
+    display:block;
+    clear:both;
+    height: 170px;
+    
+    
+}
+.s22,.s23,.s24,.s25{
+    width: 220px;
+    height: 170px;
+}
+.s22{
+   
+    background-color: blue;
+    float: left;
+     margin: 8px auto;
+     margin-right: 7px;
+    
+    
+    
+}
+.s23{
+    
+    background-color: blueviolet;
+    float: left;
+    margin: 8px auto; 
+    margin-right: 7px;
+    
+   
+    
+    
+}
+.s24{
+    
+    background-color: brown;
+    float: left;
+    margin: 8px auto; 
+    
+    
+}
+.s25{
+   
+    background-color: burlywood;
+    float: right;
+    margin: 8px auto;
+    
+   
+}
+.s3{
+    width: 900px;
+    height: 500px;
+    
+    
+}
+.s31,.s32{
+    width: 445px;
+    height: 500px;
+    
+}
+.s31{
+    background-color: deeppink;
+    float: left;
+    margin: 0px auto;
+    
+    
+}
+.s32{
+    background-color: forestgreen;
+    overflow: hidden;
+    margin: 8px auto;
+    
+}
+.s4{
+    width: 900px;
+    height: 150px;
+    background-color: darkslateblue;
+    margin: 22px auto;
+    
+}
